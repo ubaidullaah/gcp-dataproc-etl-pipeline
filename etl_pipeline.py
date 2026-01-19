@@ -24,7 +24,7 @@ df_clean = df_clean.dropDuplicates(["order_id"])
 df_clean = df_clean.withColumn("amount_usd", col("amount") * 1.0)
 
 # 5️⃣ Write to BigQuery
-project_id = "data-engineering-first-483714"
+project_id = "dataproc-pipeline"
 dataset_id = "my_dataset"
 table_id = "sales_cleaned"
 
