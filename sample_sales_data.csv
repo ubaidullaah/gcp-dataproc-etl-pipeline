@@ -1,0 +1,11 @@
+order_id,customer_id,product,amount,region
+1,101,Biryani,500.0,Lahore
+2,102,Pilao,300.0,Karachi
+3,103,Zarda,200.0,Islamabad
+4,104,Raita,150.0,
+5,105,Salad,100.0,Lahore
+6,101,Biryani,,Karachi
+7,107,,250.0,Lahore
+8,108,Pilao,300.0,Islamabad
+9,109,Zarda,200.0,Karachi
+10,110,Salad,,Lahore
